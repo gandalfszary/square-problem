@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.all {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.all__top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.all__bot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.all__square {
+    width: 150px;
+    height: 150px;
+}
+
+.square--yellow {
+    background-color: yellow;
+}
+
+.square--red {
+    background-color: red;
+}
+
+.square--blue {
+    background-color: blue;
+}
+
+.square--green {
+    background-color: green;
+}
+
+.clicker {
+    margin-top: 100px;
+    width: 300px;
+}
